@@ -15,8 +15,8 @@ namespace csharp_lista_indirizzi
             private string via;
             private string città;
             private string provincia;
-            private int zip;
-        public Indirizzo(string nome, string cognome, string via, string città, string provincia, int zip)
+            private string zip;
+        public Indirizzo(string nome, string cognome, string via, string città, string provincia, string zip)
         {
             this.nome = nome;
             this.cognome =cognome;
@@ -45,7 +45,7 @@ namespace csharp_lista_indirizzi
         {
             return città;
         }
-        public int GetZip()
+        public string GetZip()
         {
             return zip;
         }
