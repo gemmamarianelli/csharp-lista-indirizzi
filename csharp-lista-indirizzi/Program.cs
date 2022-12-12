@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using csharp_lista_indirizzi;
+
+
+List<Indirizzo> indirizzos = new List<Indirizzo>();
+

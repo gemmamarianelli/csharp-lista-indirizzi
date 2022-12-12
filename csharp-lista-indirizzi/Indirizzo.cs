@@ -49,6 +49,10 @@ namespace csharp_lista_indirizzi
         {
             return zip;
         }
-        
+
+        public override string ToString()
+        {
+            return "Nome" + this.nome + "\tCognome" + this.cognome + "\tVia" + this.via + "\tCittà" + this.città + "\tProvincia" + this.provincia + "\tZip" + this.zip;
+        }
     }
 }
